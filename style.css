@@ -1,0 +1,39 @@
+.gradient-background{
+    background: linear-gradient(300deg, #E1AFD1, #AD88C6, #7469B6);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.profile-img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+#title{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: ce;
+}
+
+
+#footer{
+    height:100vh;
+    width: 100vw;
+}
+
+
